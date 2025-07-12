@@ -1,0 +1,20 @@
+{
+  "name": "উপন্যাস পাঠ অ্যাপ",
+  "short_name": "উপন্যাস",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#fff8f0",
+  "theme_color": "#fff8f0",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

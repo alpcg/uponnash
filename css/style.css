@@ -1,0 +1,107 @@
+body {
+  font-family: 'Noto Sans Bengali', sans-serif;
+  background-color: #fff8f0;
+  color: #333;
+  padding: 10px;
+  margin: 0;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+h1 {
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.search-filter {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.search-filter input, .search-filter select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.novel-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.novel-card {
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+.thumbnail-wrapper {
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+  max-height: 250px;
+}
+
+.thumbnail-wrapper img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.thumbnail-wrapper .overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.65);
+  color: #fff;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 13px;
+}
+
+.thumbnail-wrapper .overlay h3 {
+  margin: 0 0 4px 0;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 1.3;
+}
+
+.thumbnail-wrapper .overlay p {
+  margin: 2px 0;
+  font-size: 12px;
+  opacity: 0.85;
+}
+
+.novel-buttons {
+  display: flex;
+  justify-content: space-around;
+  padding: 12px;
+  background-color: #f4f4f4;
+}
+
+.novel-buttons a {
+  text-decoration: none;
+  padding: 8px 14px;
+  background-color: #007bff;
+  color: white;
+  font-size: 14px;
+  border-radius: 8px;
+}
+
+.novel-buttons a:hover {
+  background-color: #0056b3;
+}

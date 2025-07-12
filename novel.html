@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>📖 উপন্যাস</title>
+  <link rel="stylesheet" href="css/style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="reader-header">
+    <a href="index.html" class="back-link">⬅</a>
+    <h2 id="novelTitle">উপন্যাস শিরোনাম</h2>
+    <a id="downloadPdf" href="#" download>⬇️ PDF</a>
+  </div>
+
+  <div class="reader-controls">
+    <button onclick="decreaseFont()">A−</button>
+    <button onclick="increaseFont()">A+</button>
+    <button onclick="saveBookmark()">🔖 বুকমার্ক</button>
+  </div>
+
+  <div class="reader-content" id="novelContent">লোড হচ্ছে...</div>
+
+  <script src="js/reader.js"></script>
+</body>
+</html>

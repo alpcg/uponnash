@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>উপন্যাস পাঠ অ্যাপ</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1>📚 ১০০০+ উপন্যাস পড়ুন ফ্রি</h1>
+
+    <!-- Search and Filter -->
+    <div class="search-filter">
+      <input type="text" id="searchInput" placeholder="নাম দিয়ে খুঁজুন...">
+      <select id="categoryFilter">
+        <option value="">সব ক্যাটাগরি</option>
+        <option value="রবীন্দ্রনাথ ঠাকুর">রবীন্দ্রনাথ ঠাকুর</option>
+        <option value="শরৎচন্দ্র চট্টোপাধ্যায়">শরৎচন্দ্র চট্টোপাধ্যায়</option>
+        <option value="জে. কে. রাওলিং">জে. কে. রাওলিং</option>
+      </select>
+    </div>
+
+    <div class="novel-list" id="novelList"></div>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
